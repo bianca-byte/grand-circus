@@ -1,0 +1,166 @@
+* { font-family: 'Bungee', cursive;
+    
+}
+.logo { max-width: 150px;}
+
+.container-header{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+align-items: center;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+
+
+li {
+    display: inline;
+    color:#7944e6;
+    padding: 5px;
+}
+
+a {
+    color:#7944e6;
+    text-decoration: none;
+
+}
+
+a:hover {
+    background-color: #10fdff;
+
+}
+
+
+
+.food-title{
+text-align: center;
+
+}
+
+
+.magenta {
+background-color: #ff00ff;
+padding: 20px;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 10px;
+margin-bottom: -18px;
+}
+
+
+
+
+
+
+.truck { 
+max-width: 200px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.about { 
+
+}
+
+.section-images{
+    max-width: 300px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;}
+
+.coffee{
+    margin-bottom: 40px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #7944e6;
+    max-width: 300px;
+    height: 400px;
+    text-align: center;
+
+}
+
+.cream{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #7944e6;
+    max-width: 300px;
+    height: 400px;
+    text-align: center;
+
+}
+.cookies{
+    margin-bottom: 40px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #7944e6;
+    max-width: 300px;
+    height: 400px;
+    text-align: center;
+
+}
+
+
+
+.view-menu {
+    position: relative;
+    text-align: center;
+    bottom: -30px;}
+
+    
+@media (min-width: 768px) {
+    
+  
+        .container{
+        
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+       
+    
+        .magenta {
+            display: flex;
+            align-items: center;
+
+            background-color: #ff00ff;
+            max-width: 100%;
+            padding: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 10px;
+            margin-bottom: -18px;
+            }
+
+        .truck {
+            
+                max-width: 400px;
+                
+        
+            }
+            
+           .about{ 
+                position: relative;
+                width: 600px;
+                justify-content: right;
+                }
+    
+           
+        }
+    
